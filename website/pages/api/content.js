@@ -15,7 +15,7 @@ export default async function handler(req, res) {
                 success: true,
                 found: true,
                 content: fileStr
-            })
+        })
     } catch {
         return res.status(404).send({
             success: false,
